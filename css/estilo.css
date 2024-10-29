@@ -1,4 +1,3 @@
-
 body {
     background-color: #d3d3d3 !important;
 }
@@ -17,7 +16,7 @@ header h1 {
 
 header p {
     font-size: 1.2em;
-    color: #969696;
+    color: #bbb6b6;
     margin: 5px 0 0;
 }
 
@@ -37,18 +36,32 @@ main p strong {
 }
 
 img {
-        width: 500px;
-        height: 500px;
-    }
+    width: 500px;
+    height: 500px;
+}
 
-
-.bnt-cor{
+.bnt-cor {
     background-color: #1E5128;
 }
-.teste{
-    width: 500px;
-    height: 200px;
-}
-.texte{
+
+.texte {
     font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Centraliza o modal na tela */
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Centraliza as colunas */
+    flex-wrap: wrap; /* Permite que as colunas quebrem para a próxima linha */
+}
+h5{
+    font-size: 10px;
 }
